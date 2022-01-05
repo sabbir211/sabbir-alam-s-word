@@ -1,0 +1,77 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+   
+}
+
+
+.sec{
+display: flex;
+}
+.container{
+    width: 48%;
+    padding:84px;
+}
+.firstBackImg{
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+}
+#orange-color{
+    color: orange;
+    font-family: 'Island Moments', cursive;
+    font-size: 2.8rem;
+}
+.header{
+    font-size: 1.8rem;
+    
+}
+.btn{
+    background:linear-gradient( tomato,white) ;
+    padding: 10px 15px;
+    border: none;
+    color: rgb(19, 26, 126);
+    font-size: 1.03rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;}
+.container img{
+    width: 100%;
+}
+.secondBackImg{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.lastTwoContainer{
+    box-shadow: 5px 7px 40px gray;
+    margin: 30px;
+    padding: 10px;
+    border-left: 5px solid;
+    
+}
+.lastTwoContainer h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.lastTwoContainer h4{
+    font-size: 1.5rem;
+    color: orange;
+    text-align: center;
+}
+#fullStak{  
+   margin-left: 70px;
+   padding: 0 30px;
+   border-image: linear-gradient(180deg, lightsalmon,tomato) 30;
+}
+#babyDev{
+    border-image: linear-gradient(180deg,green,lightgreen) 20;
+}
+#lastSec{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    
+    background-position: left;
+}
